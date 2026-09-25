@@ -60,12 +60,19 @@ Then in the browser tab that opens:
 
 ​```
 RAG/
+
 ├── app.py                  # Streamlit frontend (build DB + chat)
+
 ├── create_chroma.py        # Standalone ingestion script
+
 ├── main.py                 # Standalone Q&A script
+
 ├── document_loaders/       # Source PDFs
+
 ├── requirements.txt
-└── .env                    # Not committed — holds GOOGLE_API_KEY
+
+└── .env                    # Not committed, holds GOOGLE_API_KEY
+
 ​```
 
 
